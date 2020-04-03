@@ -1,24 +1,9 @@
 const fs = require('hexo-fs')
-const yaml = require('js-yaml')
-const ehto = require('ever-html-to-object')
+const checkType = require('./src/checkType')
+const toHexo = require('./src/toHexo')
 
 const everpath = fs.existsSync('./evernote/我的笔记') ? './evernote/我的笔记' : fs.existsSync('./我的笔记') ? './我的笔记' : './evernote'
 const sourcepath = './source'
-
-function checkType(name) {
-  const last = ['.html', '.resources', '_files']
-  if (last.includes(name.split('.page').pop())) return 'page'
-  else if (last.includes(name.split('.draft').pop())) return 'draft'
-  else return 'post'
-}
-
-function toHexo(raw) {
-  const post = ehto(raw, { rmAssetsPrefix: true })
-  post.date = post.created
-  const body = post.body
-  delete post.body
-  return ["---", yaml.safeDump(post), "---", body].join('\n')
-}
 
 hexo.extend.console.register('ever', 'Evernote generator.', function (args) {
   const ignoreList = ['index.html', 'Evernote_index.html']
