@@ -1,6 +1,6 @@
 {
   "name": "hexo-evernote-html",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Hexo plugin: convert evernote client output html to hexo blog",
   "main": "index",
   "author": "cyang39 <huqinyang123@gmail.com>",
@@ -9,5 +9,9 @@
     "ever-html-to-object": "^0.0.10",
     "hexo-fs": "^2.0.0",
     "js-yaml": "^3.13.1"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Cyang39/hexo-evernote-html.git"
   }
 }
