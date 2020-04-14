@@ -65,3 +65,10 @@ hexo ever
   - `foo.page` => layout: page
   - `bar.draft` => layout: draft
   - `baz` => layout: post 默认为 post
+  
+ ---
+ **Todo**
+ 
+- [ ] 添加通过印象笔记存储 `_config.yaml` 的支持
+
+
