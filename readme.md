@@ -54,6 +54,12 @@ post_asset_folder: true
 hexo ever
 ```
 
+静态页面将生成在 `public` 目录，可以通过 [http-server](https://www.npmjs.com/package/http-server) 来预览
+
+```
+hs public
+```
+
 <hr>
 
 清理的指令还是 `hexo clean`，扩展了对 `<hexo dir>/source`的清理，<br>
