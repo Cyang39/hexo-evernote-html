@@ -60,6 +60,8 @@ hexo ever
 hs public
 ```
 
+六、部署博客，参考[部署 ｜ Hexo](https://hexo.io/zh-cn/docs/one-command-deployment)。
+
 <hr>
 
 清理的指令还是 `hexo clean`，扩展了对 `<hexo dir>/source`的清理，<br>
