@@ -155,10 +155,10 @@ esprima@^4.0.0:
   resolved "https://registry.npm.taobao.org/esprima/download/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha1-E7BM2z5sXRnfkatph6hpVhmwqnE=
 
-ever-html-to-object@^0.0.10:
-  version "0.0.10"
-  resolved "https://registry.npm.taobao.org/ever-html-to-object/download/ever-html-to-object-0.0.10.tgz#13d62fa922907a0f7a9b0861d5e1cd23808de8a7"
-  integrity sha1-E9YvqSKQeg96mwhh1eHNI4CN6Kc=
+ever-html-to-object@latest:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/ever-html-to-object/-/ever-html-to-object-0.0.14.tgz#f4514960d5bdac5f472e09ff31898cac89b9c3c5"
+  integrity sha512-FIpOAmQB0fJYaiDeZl+x93OD94K1jtjepr+cZozs7J0VlY+kVg0LKIMS69toE94x3kIUHmv2QfeFpPljmzVqNQ==
   dependencies:
     cheerio "^1.0.0-rc.3"
 
@@ -246,9 +246,9 @@ js-yaml@^3.13.1:
     esprima "^4.0.0"
 
 lodash@^4.15.0:
-  version "4.17.15"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
